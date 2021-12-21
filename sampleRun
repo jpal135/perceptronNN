@@ -1,0 +1,208 @@
+Script started on 2021-10-15 18:16:42-07:00
+bash-4.4$ java proj1
+Welcome to my first neural network – A Perceptron Net!
+Enter 1 to train using a training data file, enter 2 to use a trained weight settings data file:
+1
+Enter the training data file name:
+sampleR Training.txt
+Enter 0 to initialize weights to 0, enter 1 to initialize weights to random values between -0.5 and 0.5:
+0
+Enter the maximum number of training epochs:
+100
+Enter a file name to save the trained weight settings:
+samp    sampleWeights.txt
+Enter the learning rate alpha from 0 to 1 but not including 0:
+1 0.5
+Enter the threshold theta:
+1.0
+Enter the threshold to be used for measuring weight changes:
+0.00001
+Training converged after 4 epochs
+Enter 1 to test/deploy using a testing/deploying data file, enter 2 to quit:
+1
+Enter the testing/deploying data file name:
+LNNI   NII .txtt 
+Enter a filename to save the testing/deploying results:
+sampleResults.txtt 
+
+Do you want to run the program again (y for yes and n for no)?:
+y
+Welcome to my first neural network – A Perceptron Net!
+Enter 1 to train using a training data file, enter 2 to use a trained weight settings data file:
+1
+Enter the training data file name:
+sampleTraining.txt
+Enter 0 to initialize weights to 0, enter 1 to initialize weights to random values between -0.5 and 0.5:
+1
+Enter the maximum number of training epochs:
+100
+Enter a file name to save the trained weight settings:
+sampleWeights.txt
+Enter the learning rate alpha from 0 to 1 but not including 0:
+0.5
+Enter the threshold theta:
+1.0
+Enter the threshold to be used for measuring weight changes:
+0.00001
+Training converged after 3 epochs
+Enter 1 to test/deploy using a testing/deploying data file, enter 2 to quit:
+1
+Enter the testing/deploying data file name:
+MNI.txt
+Enter a filename to save the testing/deploying results:
+sampleResults.txt
+
+Do you want to run the program again (y for yes and n for no)?:
+n
+bash-4.4$ cat  [KsampleResults.txt
+Actual output:
+A
+1 -1 -1 -1 -1 -1 -1 
+Classified output:
+A
+1 -1 -1 -1 -1 -1 -1 
+
+Actual output:
+B
+-1 1 -1 -1 -1 -1 -1 
+Classified output:
+B
+-1 1 -1 -1 -1 -1 -1 
+
+Actual output:
+C
+-1 -1 1 -1 -1 -1 -1 
+Classified output:
+C
+-1 -1 1 -1 -1 -1 -1 
+
+Actual output:
+D
+-1 -1 -1 1 -1 -1 -1 
+Classified output:
+D
+-1 -1 -1 1 -1 -1 -1 
+
+Actual output:
+E
+-1 -1 -1 -1 1 -1 -1 
+Classified output:
+E
+-1 -1 -1 -1 1 -1 -1 
+
+Actual output:
+J
+-1 -1 -1 -1 -1 1 -1 
+Classified output:
+J
+-1 -1 -1 -1 -1 1 -1 
+
+Actual output:
+K
+-1 -1 -1 -1 -1 -1 1 
+Classified output:
+K
+-1 -1 -1 -1 -1 -1 1 
+
+Actual output:
+A
+1 -1 -1 -1 -1 -1 -1 
+Classified output:
+A
+1 -1 -1 -1 -1 -1 -1 
+
+Actual output:
+B
+-1 1 -1 -1 -1 -1 -1 
+Classified output:
+B
+-1 1 -1 -1 -1 -1 -1 
+
+Actual output:
+C
+-1 -1 1 -1 -1 -1 -1 
+Classified output:
+C
+-1 -1 -1 -1 -1 -1 -1 
+
+Actual output:
+D
+-1 -1 -1 1 -1 -1 -1 
+Classified output:
+D
+-1 -1 -1 -1 -1 -1 -1 
+
+Actual output:
+E
+-1 -1 -1 -1 1 -1 -1 
+Classified output:
+E
+-1 -1 -1 -1 1 -1 -1 
+
+Actual output:
+J
+-1 -1 -1 -1 -1 1 -1 
+Classified output:
+J
+-1 -1 -1 -1 -1 1 -1 
+
+Actual output:
+K
+-1 -1 -1 -1 -1 -1 1 
+Classified output:
+K
+-1 -1 -1 -1 -1 -1 1 
+
+Actual output:
+A
+1 -1 -1 -1 -1 -1 -1 
+Classified output:
+A
+-1 -1 -1 -1 -1 -1 1 
+
+Actual output:
+B
+-1 1 -1 -1 -1 -1 -1 
+Classified output:
+B
+-1 1 -1 -1 1 -1 -1 
+
+Actual output:
+C
+-1 -1 1 -1 -1 -1 -1 
+Classified output:
+C
+-1 -1 1 -1 -1 -1 -1 
+
+Actual output:
+D
+-1 -1 -1 1 -1 -1 -1 
+Classified output:
+D
+-1 -1 -1 1 -1 -1 -1 
+
+Actual output:
+E
+-1 -1 -1 -1 1 -1 -1 
+Classified output:
+E
+-1 -1 -1 -1 1 -1 -1 
+
+Actual output:
+J
+-1 -1 -1 -1 -1 1 -1 
+Classified output:
+J
+-1 -1 -1 -1 -1 1 -1 
+
+Actual output:
+K
+-1 -1 -1 -1 -1 -1 1 
+Classified output:
+K
+-1 -1 -1 -1 -1 -1 1 
+
+bash-4.4$ exit
+exit
+
+Script done on 2021-10-15 18:20:41-07:00
